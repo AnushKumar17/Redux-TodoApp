@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='font-extrabold text-indigo-500 text-3xl'>QuadB Tech Todos</div>
+      <div className='font-extrabold text-indigo-500 text-3xl'>Todos App using Redux & Redux-persist</div>
       <TaskInput />
       <Todos />
     </>
