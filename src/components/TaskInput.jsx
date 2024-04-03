@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {useDispatch} from 'react-redux'
 import {addTodo} from '../features/todo/todoSlice' 
 
-function AddTodo() {
+function TaskInput() {
 
     const [input, setInput] = useState('')
     const dispatch = useDispatch()
@@ -26,10 +26,10 @@ function AddTodo() {
         type="submit"
         className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
       >
-        Add Todo
+        Add
       </button>
     </form>
   )
 }
 
-export default AddTodo
+export default TaskInput

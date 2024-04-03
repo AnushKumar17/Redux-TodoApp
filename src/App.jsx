@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import AddTodo from './components/AddTodo'
-import Todos from './components/Todos'
+import TaskInput from './components/TaskInput'
+import Todos from './components/TaskList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <AddTodo />
+      <div className='font-extrabold text-indigo-500 text-3xl'>QuadB Tech Todos</div>
+      <TaskInput />
       <Todos />
     </>
   )
